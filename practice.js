@@ -8,7 +8,10 @@
 
   //Code here
 
-
+var me = {
+  name: "Austin",
+  age: 27,
+}
 
 
 
@@ -23,7 +26,14 @@
   //Code here
 
 
-
+var favoriteThings = {
+  band: 'NA',
+  food: "anything",
+  person: 'Allie',
+  book: 'all',
+  movie: 'everything',
+  holiday: 'X-mas',
+}
 
 
 
@@ -32,7 +42,8 @@
 
   //Code here
 
-
+favoriteThings.car = 'chevy',
+favoriteThings.brand = 'silverado'
 
 
 
@@ -41,7 +52,8 @@
   //Code here
 
 
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 
 
 //NEXT PROBLEM
@@ -60,16 +72,19 @@ that is named color, with the value being the color of your backpack.
 
   //Code here
 
+var backPack = {
 
+}
 
-
+var item = 'firstPocket'
+backPack[item] = 'chapstick'
 
 
 //After you do the above, alert your entire backPack object.
 
   //Code here
 
- 
+ alert(backPack)
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -80,7 +95,7 @@ Instead, console.log your whole backPack object and then check out the console.
   //Code here
 
 
-
+console.log(backPack)
 
 
 //NEXT PROBLEM
@@ -101,7 +116,8 @@ var user2 = {
 
   //Code Here
 
-
+user2.name = 'Tyler S. McGinnis'
+user2.email = 'tyler.mcginnis@devmounta.in'
 
 
 
